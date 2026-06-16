@@ -1,10 +1,10 @@
 # Role Crawler
 
-An Apps Script crawler that aggregates open positions from ~43 EdTech-aligned organizations across 18 distinct ATS platforms into a single Google Sheet, with three-tier department classification, location filtering, lifecycle status tracking, and persistent state for resumable execution.
+An Apps Script crawler that aggregates open positions from ~43 educational technology (EdTech) organizations across 18 distinct ATS platforms into a single Google Sheet, with three-tier department classification, location filtering, lifecycle status tracking, and persistent state for resumable execution.
 
 ## What It Does
 
-The crawler reads from the public job-board APIs of platforms like Greenhouse, Lever, Workday, SmartRecruiters, USAJOBS, UltiPro, Paycom, Oracle Recruiting Cloud, and others. It normalizes the heterogeneous response shapes into a consistent 14-column schema, applies filters (junk titles, age cutoff, non-US locations, excluded department tiers), classifies each surviving role as Core, Peripheral, or Excluded, deduplicates against existing rows, locks rows once they have moved beyond the In-Queue state, and writes everything to a single Google Sheet with conditional formatting on the status column.
+The crawler reads from the public job board APIs of platforms like Greenhouse, Lever, Workday, SmartRecruiters, USAJOBS, UltiPro, Paycom, Oracle Recruiting Cloud, and others. It normalizes the heterogeneous response shapes into a consistent 14-column schema, applies filters (junk titles, age cutoff, non-US locations, excluded department tiers), classifies each surviving role as Core, Peripheral, or Excluded, deduplicates against existing rows, locks rows once they have moved beyond the In-Queue state, and writes everything to a single Google Sheet with conditional formatting on the status column.
 
 ## ATS Coverage
 
