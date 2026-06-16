@@ -76,7 +76,3 @@ Most edits will happen in `src/Config.gs`:
 - **`DEPT_TIER_1` / `DEPT_TIER_2` / `DEPT_TIER_3`**: keyword lists for the Core / Peripheral / Excluded classifier.
 - **`ccIsNonUS` keyword list** (in `src/Filters.gs`): countries, regions, and cities to exclude.
 - **`USAJOBS_EMAIL` / `USAJOBS_KEY`**: read-only public-data credentials for the federal jobs API (free from data.usajobs.gov).
-
-## License
-
-This is personal tooling. Adapt freely. No warranty.
